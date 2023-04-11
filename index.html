@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Line Drawing</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div class="game__container">
+      <canvas id="myCanvas" width="500" height="500"></canvas>
+      <button id="stopButton">Stop</button>
+      <div class="bad__container">
+        <div id="multiplier__container">
+          <span id="multiplier">0</span><span id="multiplier">x</span>
+        </div>
+      </div>
+      <div id="money__container">Current Money: <span id="money">0</span></div>
+      <button for="bet" id="betButton">Bet</button>
+      <input type="number" id="bet" name="bet" min="1" />
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
